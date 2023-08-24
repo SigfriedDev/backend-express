@@ -1,7 +1,6 @@
 import mongoose from 'mongoose';
 
-// URL de conexión a MongoDB
-const dbURL = 'mongodb+srv://testDB:Password123@cluster0.ruyqase.mongodb.net/express-db';
+const dbURL = '';
 
 mongoose.connect(dbURL, {
   useNewUrlParser: true,
